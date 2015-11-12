@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/','LoginController@showLogin');
+
+//route to show login form
+Route::get('login', array('uses' => 'LoginController@showLogin'));
+
+//route to process the login
+Route::post('login', array('uses' => 'LoginController@doLogin'));
+
+Route::get('/test', function() {
+	return view('test');
 });

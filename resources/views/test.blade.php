@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>LCD Content Management</title>
+        <title>Testing Page</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -38,10 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">BEM TV</div>
-            </div>
-            <div class="content">
-                <div>Content Management</div>
+                <div class="title">Login Success</div>
             </div>
         </div>
     </body>
